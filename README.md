@@ -23,8 +23,9 @@ tetraodon/
 └── README.md                      # Documentation
 ```
 
-Complete
+Complete tree
 
+```text
 examples/tetraodon/
 ├── db/                                      [ignored] Viral/host references and indexes
 │   ├── viral_refseq.faa                     Viral proteins
@@ -74,3 +75,4 @@ examples/tetraodon/
 ├── md5sum.txt                               File checksums
 ├── EEfinder_Tetraodon_README_draft.md       Earlier draft
 └── README.md                                This document
+```
