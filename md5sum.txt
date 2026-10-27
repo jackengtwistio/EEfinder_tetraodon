@@ -1,0 +1,3 @@
+f938d3e61414e959ad20939a92432962  ncbi_dataset/data/assembly_data_report.jsonl
+3032415143ceeb322e1370822aaa1c72  ncbi_dataset/data/GCA_051020865.1/GCA_051020865.1_TetNigT2Thap1_genomic.fna
+72e65e58538b48247dfbf1e971203e87  ncbi_dataset/data/dataset_catalog.json

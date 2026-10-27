@@ -1,0 +1,14 @@
+# Downloaded genomes and databases
+/db/
+/genome/
+/ncbi_dataset/
+
+tmp_files/
+
+# Generated analysis results
+#/tetraodon/results/
+
+# System and Python files
+.DS_Store
+__pycache__/
+*.pyc

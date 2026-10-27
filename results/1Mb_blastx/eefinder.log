@@ -1,0 +1,82 @@
+{
+    "arguments": {
+        "genome_file": "genome/tetraodon_1Mb.fna",
+        "prefix": "tetraodon_1Mb",
+        "outdir": "results/1Mb_blastx",
+        "database": "db/viral_refseq.faa",
+        "dbmetadata": "db/viral_refseq.csv",
+        "baits": "db/tetraodon_host.faa",
+        "mode": "blastx",
+        "length": 1000,
+        "flank": 1000,
+        "limit": 100,
+        "range_junction": 100,
+        "mask_per": 50,
+        "clean_masked": false,
+        "threads": 4,
+        "removetmp": false,
+        "index_databases": false,
+        "merge_level": 1000
+    },
+    "start_time": "2026-10-27 10:04:37",
+    "end_time": "2026-10-27 10:18:27",
+    "total_time_minutes": "13.8239",
+    "steps_information": [
+        {
+            "step": "Prepare input data",
+            "start_time": "2026-10-27 10:04:37",
+            "end_time": "2026-10-27 10:04:37",
+            "total_time_minutes": "0.0058",
+            "message": "tetraodon_1Mb prefix included in genome/tetraodon_1Mb.fna sequences header and sequences bellow than 1000 nt are removed from genome/tetraodon_1Mb.fna."
+        },
+        {
+            "step": "Similarity search",
+            "start_time": "2026-10-27 10:04:37",
+            "end_time": "2026-10-27 10:18:19",
+            "total_time_minutes": "13.6944",
+            "message": "Similarity analysis with blastx was performed using results/1Mb_blastx/tetraodon_1Mb.rn.fmt against db/viral_refseq.faa.Matches against same subject sequence in a 100nt range junction are filtered, mantaining the one with the greatest bitscore."
+        },
+        {
+            "step": "Extraction of putative EEs",
+            "start_time": "2026-10-27 10:18:19",
+            "end_time": "2026-10-27 10:18:21",
+            "total_time_minutes": "0.0345",
+            "message": "Extract infos based on results/1Mb_blastx/tetraodon_1Mb.rn.fmt.blastx.filtred.bed information."
+        },
+        {
+            "step": "Filter step",
+            "start_time": "2026-10-27 10:18:21",
+            "end_time": "2026-10-27 10:18:25",
+            "total_time_minutes": "0.0581",
+            "message": "Filter step based on similarity analysis with blastx was performed using results/1Mb_blastx/tetraodon_1Mb.rn.fmt.blastx.filtred.bed.fasta against db/viral_refseq.faa. Matches against same subject sequence in a 100nt range junction are filtered, mantaining the one with the greatest bitscore. The results are compared, and the putative EEs with the greatest bitscore on host genes baits database are removed"
+        },
+        {
+            "step": "Get Basic Taxonomy",
+            "start_time": "2026-10-27 10:18:25",
+            "end_time": "2026-10-27 10:18:26",
+            "total_time_minutes": "0.0269",
+            "message": "Performed initial taxonomy"
+        },
+        {
+            "step": "Merge truncated elements",
+            "start_time": "2026-10-27 10:18:26",
+            "end_time": "2026-10-27 10:18:26",
+            "total_time_minutes": "0.0018",
+            "message": "Merge EEs near of 100nt based on genus taxonomy information."
+        },
+        {
+            "step": "Create Final Taxonomy",
+            "start_time": "2026-10-27 10:18:26",
+            "end_time": "2026-10-27 10:18:26",
+            "total_time_minutes": "0.0004",
+            "message": "Performed final taxonomy."
+        },
+        {
+            "step": "Extract flanking regions",
+            "start_time": "2026-10-27 10:18:26",
+            "end_time": "2026-10-27 10:18:27",
+            "total_time_minutes": "0.0015",
+            "message": "Extracted 1000nt of each flanking region of EEs."
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+Element-ID	Sense	Protein-IDs	Protein-Products	Molecule_type	Family	Genus	Species	Host	Overlaped_Element_ID	tag	Average_pident
+CM117303.1_first1Mb:322112-322734	neg	YP_009799081.1|47.561 | YP_009799081.1|46.341 | YP_009799081.1|46.25	hypothetical protein	dsDNA	Autotranscriptaviridae	Helsettvirus	Helsettvirus fPS59	Yersinia		unique	46.7
+CM117303.1_first1Mb:67794-67892	neg	YP_654581.1|72.727	hypothetical protein	dsDNA	Iridoviridae	Chloriridovirus	Chloriridovirus aedes1	Ochlerotatus taeniorhynchus	CM117303.1_first1Mb:67612-67710	overlaped	72.7
+CM117303.1_first1Mb:39771-40469	neg	YP_010087922.1|25.63	RNA-dependent DNA polymerase	dsDNA	Iridoviridae	Lymphocystivirus	Lymphocystivirus micropogonias1	Micropogonias furnieri		unique	25.6
+CM117303.1_first1Mb:523898-524398	pos	YP_009506692.1|32.335	neurofilament triplet H1-like protein	dsDNA	Iridoviridae	Ranavirus	Ranavirus rana1	Platyplectrum ornatum	CM117303.1_first1Mb:523970-524713,CM117303.1_first1Mb:524472-524651	overlaped	32.3
+CM117303.1_first1Mb:260609-261115	pos	YP_010789884.1|23.81 | YP_010789884.1|26.429	putative ubiquitin-conjugating enzyme E2	dsDNA	Mimiviridae	Moumouvirus	Moumouvirus australiense	Acanthamoeba castellanii		unique	25.1
+CM117303.1_first1Mb:523970-524713	neg	YP_010778790.1|14.919	hypothetical protein	dsDNA	Mimiviridae	Theiavirus	Theiavirus salishense	Bodo saltans	CM117303.1_first1Mb:523898-524398	overlaped	14.9
+CM117303.1_first1Mb:524472-524651	pos	YP_010778619.1|51.667	hypothetical protein	dsDNA	Mimiviridae	Theiavirus	Theiavirus salishense	Bodo saltans	CM117303.1_first1Mb:523898-524398	overlaped	51.7
+CM117303.1_first1Mb:333762-334376	neg	YP_238448.1|37.264	JM145	dsDNA	Orthoherpesviridae	Rhadinovirus	Rhadinovirus macacinegamma11	Macaca fuscata		unique	37.3
+CM117303.1_first1Mb:67612-67710	neg	YP_009481911.1|39.394	RNA polymerase rbp2	dsDNA	Unclassified	Pandoravirus	Pandoravirus neocaledonia	Acanthamoeba sp.	CM117303.1_first1Mb:67794-67892	overlaped	39.4
